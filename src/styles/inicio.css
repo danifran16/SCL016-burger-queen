@@ -1,0 +1,10 @@
+.inicio_fondo{
+  /* background-color:#F9F9F9; */
+  background-color: red;
+}
+
+.inicio_logo{
+display: flex;
+
+/* justify-content: center; */
+}

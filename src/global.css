@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap'); 
+
+body {
+  margin: 0;
+  font-family: 'Noto Serif', sans-serif;
+  /* background-color: #F9F9F9; */
+  /* background-color: red; */
+}
+*{
+ box-sizing: border-box; 
+}
+/* @media (min-width: 768px) and (max-width: 1199.98px) {
+
+} */
+h1{
+  font-family: 'Oxygen', Arial, sans-serif;
+}

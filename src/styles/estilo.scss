@@ -1,0 +1,11 @@
+/////////////////////
+//PATRON DE COLORES//
+/////////////////////
+$principal:green;
+
+/////////////////////
+//VARIABLES//
+/////////////////////
+$primary: $principal;
+
+@import './../../node_modules/bootstrap/scss/bootstrap.scss';

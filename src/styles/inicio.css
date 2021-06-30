@@ -1,10 +1,14 @@
-.inicio_fondo{
-  /* background-color:#F9F9F9; */
-  background-color: red;
-}
 
-.inicio_logo{
-display: flex;
+  .inicio-logo{
+   display: flex;
+   justify-content: center;
+  }
+ .div_inicio-logo{
+  display: flex;
+  justify-content: center;
+ }
+  
 
-/* justify-content: center; */
-}
+/* @media (min-width: 768px) and (max-width: 1200px) {
+
+} */

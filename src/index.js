@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css';
+import './styles/estilo.css';
+// import '../node_modules/bootstrap/scss/bootstrap.scss';
+// import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
 import App from './routes/App.js';
 // import reportWebVitals from './reportWebVitals';

@@ -1,13 +1,11 @@
-
-  .inicio-logo{
-   display: flex;
-   justify-content: center;
-  }
- .div_inicio-logo{
-  display: flex;
-  justify-content: center;
- }
-  
+.inicio-logo {
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.div_inicio-logo {
+  /* display: flex; */
+  /* justify-content: center; */
+}
 
 /* @media (min-width: 768px) and (max-width: 1200px) {
 

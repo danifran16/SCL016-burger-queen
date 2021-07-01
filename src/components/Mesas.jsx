@@ -1,11 +1,11 @@
 import React from "react";
-import '../styles/mesas.css';
+import styles from '../styles/mesas.module.css';
 // import '../styles/estilo.scss'
 import { Link } from "react-router-dom";
 
 const Mesas = () => ( 
-  <div className="container holi">  
-    <div className="row justify-content-between">
+  <div className="container">  
+    <div className="row border text-center gx-4 gy-4 justify-content-around">
       
       <div className="col-4">
         <Link to="/pedidos"> 1 </Link>
@@ -34,6 +34,10 @@ const Mesas = () => (
       </div>
       <div className="col-4">
         9 
+      </div>
+
+      <div className={styles.divholi}>
+        holaaaaaa
       </div>
 
     </div>

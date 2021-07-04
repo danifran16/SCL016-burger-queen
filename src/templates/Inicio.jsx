@@ -4,8 +4,8 @@ import logoApp from "../images/logo.png";
 import "../styles/inicio.css";
 import { Link } from "react-router-dom";
 
-const Inicio = () => (
-  
+const Inicio = () => {
+  return (
     <div className="container  d-flex">
       <div className="row border">
         <div className="col-7">
@@ -25,7 +25,6 @@ const Inicio = () => (
         </div>
       </div>
     </div>
-  
-);
-
+  );
+};
 export default Inicio;

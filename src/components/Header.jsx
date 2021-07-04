@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () =>(
 <div className="container"> 
-  <ul className="nav justify-content-space-around">
+  <ul className="nav">
     <li className="nav-item">
       <Link to="/">
         <img src={mLogo} alt="miniLogo" />

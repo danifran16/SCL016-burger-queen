@@ -1,29 +1,32 @@
-import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Inicio from '../components/Inicio';
-import Mesas from '../components/Mesas';
-import Pedidos from '../components/Pedido';
-import Header from '../components/Header';//prueba de fondo
-import Error from '../components/Error';
-import Menu from '../components/Menu';
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Inicio from "../templates/Inicio";
+import Mesas from "../templates/Mesas";
+import Pruebas from "../components/Pruebas"; //prueba de fondo
+import TomaDePedidos from "../templates/TomaDePedidos";
+import Error from "../templates/Error";
 
-const App = () => (
-  <BrowserRouter>
-
-    <Switch>
-      < Route exact path="/" component= {Inicio} />  
-      < Route exact path="/mesas" component= {Mesas} />
-      < Route exact path="/pedidos" component= {Pedidos} />
-      < Route exact path="/prueba" component= {Header} />
-      < Route exact path="/menu" component= {Menu} />
-      < Route component= {Error} />
+// import "../menu.json";
+import productsMenu from "../productsMenu";
 
 
-    </Switch>
+const App = () => {
+ 
 
-  
-  </BrowserRouter>
-    
-
-)
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Inicio} />
+        <Route exact path="/mesas" component={Mesas} />
+        <Route exact path="/toma-de-pedidos">
+            <TomaDePedidos productsMenu={productsMenu} />
+        </Route>
+        
+      
+        <Route exact path="/pruebas" component={Pruebas} /> pruebaaa
+        <Route component={Error} />
+      </Switch>
+    </BrowserRouter>
+  );
+};
 export default App;

@@ -1,8 +1,8 @@
 import React from "react";
-import '../styles/error.css';
+import "../styles/error.css";
 
-const Error = () => (
-
+const Error = () => {
+  return (
     <div className="main">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -125,5 +125,5 @@ const Error = () => (
       </svg>
     </div>
   );
-
+};
 export default Error;

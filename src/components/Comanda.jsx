@@ -31,7 +31,7 @@ import React/* , {useState} */from "react";
                         <p>
                           {productos.name}
                         </p>     
-                        Precio: {productos.price}             
+                        Cantidad: {productos.cantidad}             
                     </div>
                 )
               }

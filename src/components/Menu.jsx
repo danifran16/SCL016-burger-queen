@@ -3,7 +3,7 @@ import React/*  {useState} */ from "react";
 // import data from "../menu.json";
 // import Comanda from "./Comanda";
 
-const Menu = ({productsMenu}) => {
+const Menu = ({productsMenu,agregarProductosAComanda}) => {
   // const [comanda,agregarProductos] = useState([]);
 
   // const agregarProductosAComanda = (idProducto, nombre) =>{
@@ -23,7 +23,7 @@ const Menu = ({productsMenu}) => {
                 <div key={index} className="CONTENEDORINDIVIDUALDECADAPRODUCTO">
                     <p>{producto.name}</p>
                     <button 
-                      // onClick={() => agregarProductosAComanda(carta.id, carta.name)}
+                      onClick= {()=> agregarProductosAComanda(producto.id, producto.name)}
                       >agregar
                         {/* {carta.name}{carta.precio} */}
                     </button>

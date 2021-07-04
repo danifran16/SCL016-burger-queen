@@ -24,7 +24,7 @@ import Menu from "../components/Menu";
 //   }
 
 
-const TomaDePedidos = ({productsMenu}) => {
+const TomaDePedidos = ({productsMenu, agregarProductosAComanda }) => {
   return (
     <div className="container">
       {/* <div><Header/></div> */}
@@ -39,7 +39,9 @@ const TomaDePedidos = ({productsMenu}) => {
       </div> */}
 
       <div>
-        <Menu productsMenu= {productsMenu}/>  
+        <Menu productsMenu= {productsMenu}
+         agregarProductosAComanda={agregarProductosAComanda}
+         />  
       </div>
 
      {/*  <div>

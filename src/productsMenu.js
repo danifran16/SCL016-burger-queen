@@ -47,11 +47,12 @@ const productsMenu =[
     price: 350,
     type: "platos",
   },
-  {
+ /*  {
     id: 9,
     name: "gofre",
     price: 400,
     type: "platos",
-  }
-];
- export default productsMenu;
+  }, */
+]
+
+export default productsMenu;

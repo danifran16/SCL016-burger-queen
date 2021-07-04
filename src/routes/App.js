@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Inicio from "../templates/Inicio";
 import Mesas from "../templates/Mesas";
@@ -6,11 +6,21 @@ import Pruebas from "../components/Pruebas"; //prueba de fondo
 import TomaDePedidos from "../templates/TomaDePedidos";
 import Error from "../templates/Error";
 
+import Comanda from "../components/Comanda";
+
 // import "../menu.json";
 import productsMenu from "../productsMenu";
 
 
 const App = () => {
+
+  const [comanda,agregarProductos] = useState([]);
+//     { id: 1, name: "te", price: 400, type: "bebestibles"},
+//     { id: 2, name: "cafe", price: 500, type: "bebestibles"},
+//     { id: 3, name: "jugo", price: 1000, type: "bebestibles"},
+//     { id: 4, name: "limonada", price: 1500, type: "bebestibles"},
+// ]);
+
  
 
   return (
@@ -20,6 +30,7 @@ const App = () => {
         <Route exact path="/mesas" component={Mesas} />
         <Route exact path="/toma-de-pedidos">
             <TomaDePedidos productsMenu={productsMenu} />
+            <Comanda comanda={comanda}/>
         </Route>
         
       

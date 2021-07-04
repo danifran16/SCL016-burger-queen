@@ -1,7 +1,7 @@
 import React from "react";
 import logoApp from "../images/logo.png";
 // import "../styles/estilo.scss";
-import "../styles/inicio.css";
+// import "../styles/inicio.css";
 import { Link } from "react-router-dom";
 
 const Inicio = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/estilo.css';
+// import './styles/estilo.css';
 // import '../node_modules/bootstrap/scss/bootstrap.scss';
 // import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';

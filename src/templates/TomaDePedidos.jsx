@@ -2,7 +2,7 @@ import React/* , { useState } */from "react";
 import Menu from "../components/Menu";
 // import Header from "../components/Header";
 // import data from "../menu.json";
-// import Comanda from "../components/Comanda";
+/* import Comanda from "../components/Comanda"; */ //COMANDA EN VEZ DE CARRITO
 
 
 ////////AQUI PUEDO TENER MUCHOS COMPONENTES///////////////
@@ -42,8 +42,8 @@ const TomaDePedidos = ({productsMenu}) => {
         <Menu productsMenu= {productsMenu}/>  
       </div>
 
-      {/* <div>
-        <Comanda comanda={comanda}/>
+     {/*  <div>
+        <Comanda />
       </div> */}
 
       {/* <div>

@@ -16,6 +16,6 @@ body {
   background: linear-gradient(to right,#FFEDD6 30%, #F9F9F9 20%, #F9F9F9 50%);
     min-width: 720px;
     max-width: 1200px;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100vw;
 }
